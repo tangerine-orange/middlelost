@@ -1,22 +1,22 @@
 site:
-  name: AstroWind
-  site: 'https://astrowind.vercel.app'
+  name: MiddleLost
+  site: 'https://middlelost.vercel.app'
   base: '/'
   trailingSlash: false
 
-  googleSiteVerificationId: orcPxI47GSa-cRvY11tUe6iGg2IO_RPvnA1q95iEM3M
+  googleSiteVerificationId: VIuEJrBi1YTR_r5s6Xk7p9uI7OkozSUM0u1Q2yUGF4I
 
 # Default SEO metadata
 metadata:
   title:
-    default: AstroWind
+    default: MiddleLost
     template: '%s — AstroWind'
   description: "\U0001F680 Suitable for Startups, Small Business, Sass Websites, Professional Portfolios, Marketing Websites, Landing Pages & Blogs."
   robots:
     index: true
     follow: true
   openGraph:
-    site_name: AstroWind
+    site_name: MiddleLost
     images:
       - url: '~/assets/images/default.png'
         width: 1200
