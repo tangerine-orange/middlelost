@@ -5,20 +5,24 @@ import Content from '~/components/widgets/Content.astro';
 import bather from '~/assets/images/bather.jpg';
 
 const metadata = {
-  title: 'MiddleLost is a literary magazine made in North Carolina. We publish our favorite long-form poetry and visual art. We press small runs of about 100 books, one time per year.',
+  title:
+    'MiddleLost is a literary magazine made in North Carolina. We publish our favorite long-form poetry and visual art. We press small runs of about 100 books, one time per year.',
   ignoreTitleTemplate: true,
 };
 ---
 
 <Layout metadata={metadata}>
-    <Content
+  <Content
     image={{
       src: bather,
       alt: 'Features Image',
     }}
   >
     <Fragment slot="content">
-      <p class="text-xl tracking-tight dark:text-white sm:text-2xl mb-2">MiddleLost is a literary magazine made in North Carolina. We publish our favorite long-form poetry and visual art. We press small runs of about 100 books, one time per year.</p>
+      <p class="text-xl tracking-tight dark:text-white sm:text-2xl mb-2">
+        MiddleLost is a literary magazine made in North Carolina. We publish our favorite long-form poetry and visual
+        art. We press small runs of about 100 books, one time per year.
+      </p>
     </Fragment>
   </Content>
 </Layout>
