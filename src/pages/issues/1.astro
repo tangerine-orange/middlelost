@@ -3,6 +3,7 @@ import Layout from '~/layouts/PageLayout.astro';
 
 import Content from '~/components/widgets/Content.astro';
 import coverMiddlelost1 from '~/assets/images/cover-middlelost-1.jpg';
+import Button from '~/components/ui/Button.astro';
 
 const metadata = {
   title: 'MiddleLost is a literary magazine made in North Carolina. We publish our favorite long-form poetry and visual art. We press small runs of about 100 books, one time per year.',
@@ -19,7 +20,35 @@ const metadata = {
     }}
   >
     <Fragment slot="content">
-      <p class="text-xl tracking-tight dark:text-white sm:text-2xl mb-2">MiddleLost is a literary magazine made in North Carolina. We publish our favorite long-form poetry and visual art. We press small runs of about 100 books, one time per year.</p>
+        <h1 class='text-3xl md:text-4xl my-2'>MiddleLost 1, Winter 2019 </h1>
+        <Button variant="primary" class="px-8 md:px-8 mb-2" href={'/purchase'}>Buy</Button>
+
+        <div class="border border-primary p-2 mb-2 rounded-lg">
+            <h3 class="text-base text-secondary dark:text-blue-200 font-bold tracking-wide uppercase intersect-once intersect-quarter">Intro</h3>
+            <p class="text-m tracking-tight dark:text-white sm:text-lg">Justlost — Editor’s Comments</p>
+            <h3 class="text-base text-secondary dark:text-blue-200 font-bold tracking-wide uppercase intersect-once intersect-quarter">Measure</h3>
+    <p class="text-m tracking-tight dark:text-white sm:text-lg">Andrew Mossin</p>
+    <p class="text-m tracking-tight dark:text-white sm:text-lg">Elizabeth Robinson</p>
+    <p class="text-m tracking-tight dark:text-white sm:text-lg">Liz Gray</p>
+    <p class="text-m tracking-tight dark:text-white sm:text-lg">Cory Massaro</p>
+    <p class="text-m tracking-tight dark:text-white sm:text-lg">Joe Donahue</p>
+    <h3 class="text-base text-secondary dark:text-blue-200 font-bold tracking-wide uppercase intersect-once intersect-quarter">Series (Ceres, Sere, Serin)</h3>
+    <p class="text-m tracking-tight dark:text-white sm:text-lg">Bonnie Melton</p>
+    <p class="text-m tracking-tight dark:text-white sm:text-lg">Kim Lyons</p>
+    <p class="text-m tracking-tight dark:text-white sm:text-lg">Gabrielle Pflugradt</p>
+    <p class="text-m tracking-tight dark:text-white sm:text-lg">Mary Jane Gore</p>
+    <h3 class="text-base text-secondary dark:text-blue-200 font-bold tracking-wide uppercase intersect-once intersect-quarter">Miracles</h3>   
+    <p class="text-m tracking-tight dark:text-white sm:text-lg">Image Sequence</p>
+    <h3 class="text-base text-secondary dark:text-blue-200 font-bold tracking-wide uppercase intersect-once intersect-quarter">Americas</h3>
+    <p class="text-m tracking-tight dark:text-white sm:text-lg">Dale Smith</p>
+    <p class="text-m tracking-tight dark:text-white sm:text-lg">Doug Rothschild</p>
+    <p class="text-m tracking-tight dark:text-white sm:text-lg">Tim VanDyke</p>
+    <p class="text-m tracking-tight dark:text-white sm:text-lg">Mary Yordy</p>
+    <h3 class="text-base text-secondary dark:text-blue-200 font-bold tracking-wide uppercase intersect-once intersect-quarter">Elegaics</h3>
+    <p class="text-m tracking-tight dark:text-white sm:text-lg">Janet Holmes</p>
+    <p class="text-m tracking-tight dark:text-white sm:text-lg">David Need</p>
+        </div>
     </Fragment>
   </Content>
 </Layout>
+
