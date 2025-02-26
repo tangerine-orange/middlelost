@@ -1,0 +1,25 @@
+---
+import Layout from '~/layouts/PageLayout.astro';
+
+import Content from '~/components/widgets/Content.astro';
+import coverMiddlelost1 from '~/assets/images/cover-middlelost-1.jpg';
+
+const metadata = {
+  title: 'MiddleLost is a literary magazine made in North Carolina. We publish our favorite long-form poetry and visual art. We press small runs of about 100 books, one time per year.',
+  ignoreTitleTemplate: true,
+};
+---
+
+<Layout metadata={metadata}>
+    <Content
+    image={{
+      src: coverMiddlelost1,
+      alt: 'MiddleLost 1',
+        height: null
+    }}
+  >
+    <Fragment slot="content">
+      <p class="text-xl tracking-tight dark:text-white sm:text-2xl mb-2">MiddleLost is a literary magazine made in North Carolina. We publish our favorite long-form poetry and visual art. We press small runs of about 100 books, one time per year.</p>
+    </Fragment>
+  </Content>
+</Layout>
